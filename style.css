@@ -9,7 +9,7 @@
  */
 
  html {
-    line-height: 1.15; /* 1 */
+    line-height: 1.00; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
@@ -38,8 +38,8 @@
    */
   
   h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+    font-size: 3em;
+    margin: 0.80em 0;
   }
   
   /* Grouping content
@@ -347,3 +347,39 @@
   [hidden] {
     display: none;
   }
+
+
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+  div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+  p {
+    background-color: azure;
+  }
+
+  .intro {
+    background-color: azure;
+  }
+
+  body {
+    background-color: azure;
+  }
+
+  #h1 {
+    background-color: azure;
+  }
+
+  a img{
+    display: block;
+    text-align: center;
+    }
